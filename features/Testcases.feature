@@ -14,10 +14,10 @@ Feature: Test Login credentials for GitHub
 
   #Scenario Outline: Valid login with parameters
     #Given I navigate to Github page
-    #When I enter the "<username>" and enter "<password>"
+    #When I enter the "<username>" 
+    #And I type the "password"
     #Then I should login successfully
     #
     #Examples:
        #|username     | password  |
-       #|surfer.viki@gmail.com| Wipro| 
-       
+       #|surfer.viki@gmail.com| Wipro|
